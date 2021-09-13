@@ -1,25 +1,27 @@
 .logo {
    background-color: olivedrab;
 }
+.logotip img{
+  width:20%;
+}
 .spelling-by-letter {
    background-color: royalblue;
    min-height: 5rem;
 }
-#slider {
+.js-slider {
    position: relative;
    overflow: hidden;
-   margin: 20px auto 0 auto;
-   border-radius: 4px;
+   margin: 1.5rem auto;
  }
  
- #slider ul {
+ .js-slider ul {
    position: relative;
    margin: 0;
    padding: 0;
    list-style: none;
  }
  
- #slider ul li {
+ .js-slider ul li {
    position: relative;
    display: block;
    float: left;
@@ -31,13 +33,11 @@
  
  a.control_prev, a.control_next {
    position: absolute;
-   top: 40%;
+   top: 50%;
    z-index: 999;
    display: block;
-   padding: 4% 3%;
+   padding: 16px;
    width: auto;
-   height: auto;
-
    color: #fff;
    text-decoration: none;
    font-weight: 600;
@@ -46,15 +46,6 @@
    cursor: pointer;
  }
  
- a.control_prev:hover, a.control_next:hover {
-   opacity: 1;
- }
- 
- a.control_prev {
-   border-radius: 0 2px 2px 0;
- }
- 
  a.control_next {
    right: 0;
-   border-radius: 2px 0 0 2px;
  }

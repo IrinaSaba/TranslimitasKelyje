@@ -1,31 +1,32 @@
 jQuery(document).ready(function ($) {
 
-   let slideCount = $('#slider ul li').length;
-   let slideWidth = $('#slider ul li').width();
-   let slideHeight = $('#slider ul li').height();
+   let slideUl = $('.js-slider ul');
+   let slideCount = $('.js-slider ul li').length;
+   let slideWidth = $('.js-slider ul li').width();
+   let slideHeight = $('.js-slider ul li').height();
    let sliderUlWidth = slideCount * slideWidth;
 
-   $('#slider').css({ width: slideWidth, height: slideHeight });
+   $('.js-slider').css({ width: slideWidth, height: slideHeight });
 
-   $('#slider ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
+   $(slideUl).css({ width: sliderUlWidth, marginLeft: - slideWidth });
 
-   $('#slider ul li:last-child').prependTo('#slider ul');
+   $('.js-slider ul li:last-child').prependTo(slideUl);
 
    function moveLeft() {
-      $('#slider ul').animate({
+      $(slideUl).animate({
          left: + slideWidth
       }, 800, function () {
-         $('#slider ul li:last-child').prependTo('#slider ul');
-         $('#slider ul').css('left', '');
+         $('.js-slider ul li:last-child').prependTo(slideUl);
+         $(slideUl).css('left', '');
       });
    };
 
    function moveRight() {
-      $('#slider ul').animate({
+      $(slideUl).animate({
          left: - slideWidth
       }, 800, function () {
-         $('#slider ul li:first-child').appendTo('#slider ul');
-         $('#slider ul').css('left', '');
+         $('.js-slider ul li:first-child').appendTo(slideUl);
+         $(slideUl).css('left', '');
       });
    };
 
