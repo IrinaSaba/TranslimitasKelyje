@@ -38,14 +38,14 @@ h1, h2 {
    margin: 1.5rem auto;
  }
  
- .js-slider__item {
+ .slider-items {
    position: relative;
    margin: 0;
    padding: 0;
    list-style: none;
  }
  
- .js-slider__photo__item {
+ .slider-item-photo {
    position: relative;
    display: block;
    float: left;
