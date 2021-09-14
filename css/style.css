@@ -22,10 +22,9 @@ html, body {
    background-color: #484854;
    min-height: 7rem;
 }
-h1 {
-  color: white;
-}
+
 h1, h2 {
+  color:white;
   text-align: center;
   padding: 2rem;
 }
@@ -73,6 +72,49 @@ h1, h2 {
  a.control_next {
    right: 0;
  }
+
+ .art {
+   padding: 1rem;
+ }
+ .select {
+  padding: 0.3rem;
+}
+
+.flex-about-contact {
+  display: flex;
+  margin: 3rem;
+}
+
+.about-us {
+  width: 65%;
+  margin:2rem;
+}
+.form-contact {
+  border: #86B3D2 solid 0.1rem;
+}
+.contact-us {
+  padding: 1rem;
+  margin: 3rem;
+  
+}
+textarea {
+  height: 18rem;
+  width:100%;
+}
+
+.button-submit {
+  text-align: center;
+}
+button {
+  background-color: #86B3D2;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  color: white;
+}
+.partners {
+  color: black;
+}
  .partners__item_lass img{
    background-color: black;
    width:20%;
