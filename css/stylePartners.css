@@ -1,17 +1,13 @@
-
-.partners {
+.partners-header {
   text-align: center;
+  padding-bottom: 2.8rem;
 }
- .partners__item_lass img{
-   background-color: #0000;
-   width:20%;
- }
- .partners__item img {
-   width:10%;
- }
- .partners__item_travel img{
-  width:20%;
- }
- .partners__item_HCklaipeda img{
-  width:10%;
+.partners {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 2.8rem;
+}
+ .partners__item_lass {
+   background-color: #000;
  }
