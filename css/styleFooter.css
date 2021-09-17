@@ -1,0 +1,9 @@
+
+ .container-footer {
+   background-color: #557A95;
+   color: #ffff;
+ }
+ .tel>a, .contact>a {
+   color: #ffff;
+   text-decoration: none;
+ }

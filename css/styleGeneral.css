@@ -24,7 +24,7 @@ html, body {
 }
 
 h1, h2 {
-  color:white;
+  color:#ffff;
   text-align: center;
   padding: 2rem;
 }
@@ -113,10 +113,10 @@ button {
   color: white;
 }
 .partners {
-  color: black;
+  color: #0000;
 }
  .partners__item_lass img{
-   background-color: black;
+   background-color: #0000;
    width:20%;
  }
  .partners__item img {
@@ -130,9 +130,9 @@ button {
  }
  .container-footer {
    background-color: #557A95;
-   color: white;
+   color: #ffff;
  }
  .tel>a, .contact>a {
-   color: white;
+   color: #ffff;
    text-decoration: none;
  }

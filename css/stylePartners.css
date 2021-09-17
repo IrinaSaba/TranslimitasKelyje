@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin:auto;
+}
+
+html, body {
+  font-size: 62.5%;
+  height: 100%;
+}
+ body { 
+   margin-top: 0.5rem;
+    width: 90%;
+    font-size: 1.7rem;
+}
+.logo {
+   background-color: #86B3D2;
+}
+.logotip img{
+  width:25%;
+}
+.spelling-by-letter {
+   background-color: #484854;
+   min-height: 7rem;
+}
+
+h1, h2 {
+  color:#ffff;
+  text-align: center;
+  padding: 2rem;
+}
+.main {
+  background-color: #938E94;
+}
+.slider {
+   position: relative;
+   overflow: hidden;
+   margin: 1.5rem auto;
+ }
+ 
+ .slider-items {
+   position: relative;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+ }
+ 
+ .slider-item-photo {
+   position: relative;
+   display: block;
+   float: left;
+   margin: 0;
+   padding: 0;
+   width: 500px;
+    
+ }
+ 
+ a.control_prev, a.control_next {
+   position: absolute;
+   top: 50%;
+   z-index: 999;
+   display: block;
+   padding: 16px;
+   width: auto;
+   color: #fff;
+   text-decoration: none;
+   font-weight: 600;
+   font-size: 18px;
+   opacity: 0.8;
+   cursor: pointer;
+ }
+ 
+ a.control_next {
+   right: 0;
+ }
+
+ .art {
+   padding: 1rem;
+ }
+ .select {
+  padding: 0.3rem;
+}
+
+.flex-about-contact {
+  display: flex;
+  margin: 3rem;
+}
+
+.about-us {
+  width: 65%;
+  margin:2rem;
+}
+.form-contact {
+  border: #86B3D2 solid 0.1rem;
+}
+.contact-us {
+  padding: 1rem;
+  margin: 3rem;
+  
+}
+textarea {
+  height: 18rem;
+  width:100%;
+}
+
+.button-submit {
+  text-align: center;
+}
+button {
+  background-color: #86B3D2;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  color: white;
+}
+.partners {
+  color: #0000;
+}
+ .partners__item_lass img{
+   background-color: #0000;
+   width:20%;
+ }
+ .partners__item img {
+   width:10%;
+ }
+ .partners__item_travel img{
+  width:20%;
+ }
+ .partners__item_HCklaipeda img{
+  width:10%;
+ }
+ .container-footer {
+   background-color: #557A95;
+   color: #ffff;
+ }
+ .tel>a, .contact>a {
+   color: #ffff;
+   text-decoration: none;
+ }
