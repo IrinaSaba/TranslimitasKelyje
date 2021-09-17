@@ -1,14 +1,13 @@
-h1 {
-   color:#ffff;
-   text-align: center;
-   padding: 2rem;
- }
-
- .logo {
+.logo {
    background-color: #86B3D2;
 }
 .logotip img{
   width:25%;
+}
+.spelling-by-letter-name {
+  color:#ffff;
+  text-align: center;
+  padding: 2rem;
 }
 .spelling-by-letter {
    background-color: #484854;
