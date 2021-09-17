@@ -3,3 +3,15 @@ h1 {
    text-align: center;
    padding: 2rem;
  }
+
+ .logo {
+   background-color: #86B3D2;
+}
+.logotip img{
+  width:25%;
+}
+.spelling-by-letter {
+   background-color: #484854;
+   min-height: 7rem;
+}
+
