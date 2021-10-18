@@ -1,0 +1,21 @@
+
+.main {
+  background-color: #938E94;
+}
+.section__galery-name {
+  color:#ffff;
+  text-align: center;
+  padding: 2rem;
+}
+ .art {
+   padding: 1rem;
+ }
+ .flex-about-contact {
+  display: flex;
+  margin: 3rem;
+}
+
+.about-us {
+  width: 65%;
+  margin:2rem;
+}

@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin:auto;
+}
+
+html, body {
+  font-size: 62.5%;
+  height: 100%;
+}
+ body { 
+   margin-top: 0.5rem;
+    width: 90%;
+    font-size: 1.7rem;
+}
