@@ -1,0 +1,13 @@
+.partners-header {
+  text-align: center;
+  padding-bottom: 2.8rem;
+}
+.partners {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 2.8rem;
+}
+ .partners__item_lass {
+   background-color: #000;
+ }
