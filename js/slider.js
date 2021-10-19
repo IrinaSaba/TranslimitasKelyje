@@ -1,22 +1,23 @@
 jQuery(document).ready(function ($) {
 
-   let slideUl = $('.js-slider ul');
-   let slideCount = $('.js-slider ul li').length;
-   let slideWidth = $('.js-slider ul li').width();
-   let slideHeight = $('.js-slider ul li').height();
-   let sliderUlWidth = slideCount * slideWidth;
+   const slideUl = $('.js-slider-list');
+   const slideItem = $('.js-slider-list-item');
+   const slideCount = slideItem.length;
+   const slideWidth = slideItem.width();
+   const slideHeight = slideItem.height();
+   const sliderUlWidth = slideCount * slideWidth;
 
    $('.js-slider').css({ width: slideWidth, height: slideHeight });
 
    $(slideUl).css({ width: sliderUlWidth, marginLeft: - slideWidth });
 
-   $('.js-slider ul li:last-child').prependTo(slideUl);
+   $(slideItem.last()).prependTo(slideUl);
 
    function moveLeft() {
       $(slideUl).animate({
          left: + slideWidth
       }, 800, function () {
-         $('.js-slider ul li:last-child').prependTo(slideUl);
+         $(slideItem.last()).prependTo(slideUl);
          $(slideUl).css('left', '');
       });
    };
@@ -25,7 +26,8 @@ jQuery(document).ready(function ($) {
       $(slideUl).animate({
          left: - slideWidth
       }, 800, function () {
-         $('.js-slider ul li:first-child').appendTo(slideUl);
+         /* $('.js-slider ul li:first-child').appendTo(slideUl);*/
+         $(slideItem.first()).appendTo(slideUl);
          $(slideUl).css('left', '');
       });
    };
