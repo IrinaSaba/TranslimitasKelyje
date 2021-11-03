@@ -1,14 +1,26 @@
 * {
   box-sizing: border-box;
-  margin:auto;
+  margin: auto;
 }
 
-html, body {
+html,
+body {
   font-size: 62.5%;
   height: 100%;
 }
- body { 
-   margin-top: 0.5rem;
-    width: 90%;
-    font-size: 1.7rem;
+body {
+  margin-top: 0.5rem;
+  width: 90%;
+  font-size: 1.7rem;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+:root {
+  --color-general: #fff;
+  --color-bcg-header: #86b3d2;
+  --color-bcg-sbl: #484854;
 }

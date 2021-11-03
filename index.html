@@ -19,16 +19,25 @@
 </head>
 <body>
    <!-- navigation container -->
-   <div class="logo">
-      <a href="#" class="logotip">
+   <header class="logo header">
+      <nav class="nav">
+         <a class="logotip" href="index.html">
          <img src="img/Logo_TranslimitasKelyje.png" alt="Logo for Translimitas kelyje"></a>
-      <nav>
-         <ul>
-            <li>Rezervuokite tel: +37068964250</li>
-            <li>Rezervuokite emailu: kornelijus534@gmail.com</li>
-         </ul>
+         <div class="navigation"> 
+            <ul class="main-nav">
+               <li><a class="main-nav-each" href="#apie">Apie Mus</a></li>
+               <li><a class="main-nav-each" href="#partneriai">Mūsų partneriai</a></li>
+               <li><a class="main-nav-each" href="#contacts">Kontaktai</a></li>
+               </ul>
+         </div>
+         <div>      
+            <ul>
+               <li>Rezervuokite tel:<a class="contact" href="+37068964250"> +37068964250</a></li>
+               <li>Rezervuokite el. pastu: <a class="contact" href="mailto:kornelijus534@gmail.com"> kornelijus534@gmail.com </a></li>
+            </ul>
+         </div>
       </nav>
-   </div>
+   </header>
    <div class="spelling-by-letter">
       <h1 id="spelling-by-letter" class="spelling-by-letter-name">AUTOBUSU NUOMA su vairuotoju</h1>
    </div>
@@ -76,8 +85,8 @@
          </div>
       </div>
       <section class="flex-about-contact">
-         <div class="about-us">
-            <h2 class="section__galery-name">Apie MUS</h2>
+         <article id="apie" class="about-us">
+            <h2 class="section__galery-name">Apie Mus</h2>
             <div class="about">
                <p class="art">UAB "Translimitas kelyje" – tai kompanija 18 metų dirbanti keleivių pervežimo sektoriuje,
                   teikianti
@@ -108,7 +117,7 @@
                <p class="art">Su "Translimitas kelyje" visada savo kelionės tikslą pasieksite saugiai ir numatytu laiku.
                </p>
             </div>
-         </div>
+         </article>
          <div class="form-contact">
             <form class="contact-us" action="#" method="post">
                <div class="contact-us__details">
@@ -151,7 +160,7 @@
       </section>
    </section>
    <div class="our-partners">
-      <h2 class="partners-header">Mūsų partneriai</h2>
+      <h2 id="partneriai" class="partners-header">Mūsų partneriai</h2>
       <div class="partners">
 
          <a href="https://www.meja.lt/" base target="_blank"><img class="partners__item-meja"
@@ -165,24 +174,23 @@
 
       </div>
    </div>
-   <footer>
+   <footer id="contacts">
       <div class="container-footer">
-         <div class="footer__item">
-            <p class="footer__item-phone-number"><a href="+37068964250"><i class="fas fa-phone-alt"></i> :
-                  +37068964250</a>
-            </p>
-            <p class="footer__item-email"><a href="mailto:kornelijus534@gmail.com"><i class="fas fa-at"></i> :
-                  kornelijus534@gmail.com</a>
-            </p>
-         </div>
          <div class="footer__item-contact">
             <p>UAB Translimitas Kelyje</p>
             <p>Juridinis adresas: Saulės g. 7-1, Kalotės k., LT-92284 Klaipėdos r.</p>
-
             <p>Europos bendrijos licenzijos nr.: LIC-002710-EBKL</p>
          </div>
+         <div class="footer__item">
+            <p class="footer__item-phone-number"><a class="contact" href="+37068964250"><i class="fas fa-phone-alt"></i> :
+                  +37068964250</a>
+            </p>
+            <p class="footer__item-email"><a class="contact" href="mailto:kornelijus534@gmail.com"><i class="fas fa-at"></i> :
+                  kornelijus534@gmail.com</a>
+            </p>
+         </div>
       </div>
-   </footer>
+   </foote>
 
 
 

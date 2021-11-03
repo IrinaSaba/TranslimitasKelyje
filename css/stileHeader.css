@@ -1,16 +1,36 @@
 .logo {
-   background-color: #86B3D2;
+  background-color: var(--color-bcg-header);
 }
-.logotip img{
-  width:25%;
+.logotip {
+  width: 30%;
+  margin: 0;
+}
+.logotip > img {
+  width: 100%;
+}
+.header {
+  text-align: center;
+}
+.nav {
+  margin: 0;
+  display: flex;
+  color: var(--color-general);
+}
+.navigation {
+  width: 50%;
+}
+.main-nav {
+  display: flex;
+}
+.contact,
+.main-nav-each {
+  color: var(--color-general);
 }
 .spelling-by-letter-name {
-  color:#ffff;
+  color: var(--color-general);
   text-align: center;
-  padding: 2rem;
 }
 .spelling-by-letter {
-   background-color: #484854;
-   min-height: 7rem;
+  background-color: var(--color-bcg-sbl);
+  min-height: 7rem;
 }
-
