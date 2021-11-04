@@ -1,9 +1,27 @@
-
- .container-footer {
-   background-color: #557A95;
-   color: #ffff;
- }
- .tel>a, .contact>a {
-   color: #ffff;
-   text-decoration: none;
- }
+.container-footer {
+  display: flex;
+  background-color: var(--color-bcg-sbl);
+  color: var(--color-text-white);
+  letter-spacing: 0.05rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.footer__item-contact {
+  font-size: 1.7rem;
+}
+.footer__item-contact-name {
+  font-weight: bolder;
+}
+.footer__item-phone-number,
+.footer__item-email {
+  font-family: "Raleway", sans-serif;
+  color: var(--color-text-white);
+  text-decoration: none;
+}
+.footer__item-phone-number:hover,
+.footer__item-email:hover,
+.footer__item-phone-number:focus,
+.footer__item-email:focus {
+  font-size: 1.8rem;
+  border-bottom: 0.2rem solid var(--color-text-white);
+}

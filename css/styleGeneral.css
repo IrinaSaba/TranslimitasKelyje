@@ -2,16 +2,17 @@
   box-sizing: border-box;
   margin: auto;
 }
-
 html,
 body {
   font-size: 62.5%;
   height: 100%;
 }
 body {
+  font-family: "Roboto", sans-serif;
   margin-top: 0.5rem;
-  width: 90%;
   font-size: 1.7rem;
+  line-height: 1.42;
+  margin: auto;
 }
 ul {
   list-style-type: none;
@@ -20,7 +21,9 @@ a {
   text-decoration: none;
 }
 :root {
-  --color-general: #fff;
+  --color-general: #000000;
   --color-bcg-header: #86b3d2;
   --color-bcg-sbl: #484854;
+  --color-text-white: #fff;
+  --color-bcg-content: #f5f4fa;
 }

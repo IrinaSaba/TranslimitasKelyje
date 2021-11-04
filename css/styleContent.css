@@ -1,21 +1,21 @@
-
 .main {
-  background-color: #938E94;
+  background-color: var(--color-bcg-content);
+  width: 90%;
 }
 .section__galery-name {
-  color:#ffff;
+  color: var(--color-general);
   text-align: center;
   padding: 2rem;
 }
- .art {
-   padding: 1rem;
- }
- .flex-about-contact {
+.art {
+  padding: 1rem;
+}
+.flex-about-contact {
   display: flex;
   margin: 3rem;
 }
 
 .about-us {
   width: 65%;
-  margin:2rem;
+  margin: 2rem;
 }

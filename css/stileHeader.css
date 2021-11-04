@@ -1,8 +1,5 @@
-.logo {
-  background-color: var(--color-bcg-header);
-}
 .logotip {
-  width: 30%;
+  width: 20%;
   margin: 0;
 }
 .logotip > img {
@@ -12,7 +9,6 @@
   text-align: center;
 }
 .nav {
-  margin: 0;
   display: flex;
   color: var(--color-general);
 }
@@ -22,15 +18,39 @@
 .main-nav {
   display: flex;
 }
-.contact,
 .main-nav-each {
+  font-size: 1.9rem;
+  color: var(--color-general);
+  font-weight: bold;
+}
+.main-nav-each:hover,
+.main-nav-each:focus {
+  font-size: 2rem;
+  border-bottom: 0.2rem solid var(--color-general);
+}
+.rezer {
+  font-size: 1.5rem;
+  font-weight: bolder;
   color: var(--color-general);
 }
-.spelling-by-letter-name {
+.contact {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
   color: var(--color-general);
+}
+.contact:hover,
+.contact:focus {
+  font-size: 1.8rem;
+  border-bottom: 0.2rem solid var(--color-general);
+}
+
+.spelling-by-letter-name {
+  font-family: "Raleway", sans-serif;
+  color: var(--color-text-white);
   text-align: center;
+  padding-top: 1.4rem;
 }
 .spelling-by-letter {
-  background-color: var(--color-bcg-sbl);
+  background-color: var(--color-bcg-header);
   min-height: 7rem;
 }
