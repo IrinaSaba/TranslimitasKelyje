@@ -1,2 +1,1 @@
-# TranslimitasKelyje
-https://irinasaba.github.io/TranslimitasKelyje/
+Project of the ice-cream company realized working with team
