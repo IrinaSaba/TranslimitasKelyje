@@ -10,12 +10,24 @@
   img {
     padding: 15px;
   }
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-around;
+    .partners-tablet{
+      margin-top: 0;
+      margin-right: 0;
+      margin-left: 0;
+    }
+    .partners__item-meja {
+      margin-bottom: 33px;
+    }
+    .partners-tablet-second{
+      margin-right: 0;
+      margin-left: 0;
+    }
+  }
 }
  .partners__item_lass {
   background-color: #000;
   width: 70%;
- }
-
- .partners__item-meja {
-  
  }
