@@ -1,6 +1,9 @@
 .section__galery-slider-photos {
    display: flex;
    flex-wrap: wrap;
+   li {
+     padding: 15px;
+    }
 }
 .section__galery-slider-photo-item {
    width: 300px;

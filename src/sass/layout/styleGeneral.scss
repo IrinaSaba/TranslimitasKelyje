@@ -1,28 +1,10 @@
-* {
-  box-sizing: border-box;
-  margin: auto;
-}
-html,
-body {
-  font-size: 62.5%;
-  height: 100%;
-}
+
 body {
   font-family: "Roboto", sans-serif;
   margin-top: 0.5rem;
   font-size: 1.7rem;
   line-height: 1.42;
   margin: auto;
-}
-ul {
-  list-style-type: none;
-}
-img {
-  width: 100%;
-  height: auto;
-}
-a {
-  text-decoration: none;
 }
 :root {
   --color-general: #000000;
