@@ -25,19 +25,19 @@
   }
 }
 .main-nav-each {
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   color: var(--color-general);
   font-weight: bold;
   text-align: end;
 }
 .main-nav-each:hover,
 .main-nav-each:focus {
-  font-size: 2rem;
+  font-size: 1.9rem;
   border-bottom: 0.2rem solid var(--color-general);
 }
 .nav__rezer {
   margin: 0;
-  margin-right: 40px;
+  // margin-right: 40px;
   text-align: end;
 }
 .rezer {
@@ -47,12 +47,12 @@
 }
 .contact {
   font-family: "Raleway", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: var(--color-general);
 }
 .contact:hover,
 .contact:focus {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   border-bottom: 0.2rem solid var(--color-general);
 }
 
