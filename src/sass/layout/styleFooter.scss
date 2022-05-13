@@ -1,10 +1,10 @@
-.container-footer {
-  display: flex;
+footer {
   background-color: var(--color-bcg-sbl);
+  padding: 2rem;
+}
+.container-footer {
   color: var(--color-text-white);
   letter-spacing: 0.05rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 .footer__item-contact {
   font-size: 1.7rem;

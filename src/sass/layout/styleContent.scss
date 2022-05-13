@@ -1,6 +1,6 @@
 .main {
   background-color: var(--color-bcg-content);
-  width: 90%;
+  // width: 90%;
 }
 .section__galery-name {
   color: var(--color-general);
@@ -15,8 +15,13 @@
   flex-direction: column;
   align-items: center;
 }
-
 .about-us {
-  width: 65%;
-  margin: 2rem;
+  margin-bottom: 15px;
+}
+.about {
+  padding-left: 15px;
+  padding-left: 15px;
+}
+.form-contact {
+  display: none;
 }
