@@ -90,18 +90,18 @@
   color: var(--color-bcg-header);
   border-bottom: 0.2rem solid var(--color-bcg-header);
 }
-
+.spelling-by-letter {
+  background-color: var(--color-bcg-header);
+  min-height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .spelling-by-letter-name {
   font-family: "Raleway", sans-serif;
   color: var(--color-text-white);
   text-align: center;
-  padding-top: 2.2rem;
 }
-.spelling-by-letter {
-  background-color: var(--color-bcg-header);
-  min-height: 7rem;
-}
-
 .ml12 {
   font-weight: 200;
   font-size: 2rem;
