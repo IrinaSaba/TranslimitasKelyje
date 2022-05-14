@@ -26,6 +26,16 @@
       margin-left: 0;
     }
   }
+  @media screen and (min-width: 1280px) {
+    flex-direction: row;
+    justify-content: center;
+    .partners-tablet{
+      display:flex;
+    }
+     .partners-tablet-second{
+      display:flex;
+    }
+  }
 }
  .partners__item_lass {
   background-color: #000;

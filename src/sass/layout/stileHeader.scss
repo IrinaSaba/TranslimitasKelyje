@@ -1,3 +1,6 @@
+.header {
+  padding: 20px;
+}
 .logotip {
   width: 50%;
   margin: 0;
@@ -5,11 +8,19 @@
     width: 100%;
   }
 }
+.logotip:hover {
+ 
+}
 .nav {
   display: flex;
   flex-direction: column;
   color: var(--color-general);
-  padding: 20px
+  @media screen and (min-width: 1280px) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
 }
 .navigation-flex {
   display: flex;
@@ -17,8 +28,12 @@
   align-items: center;
   justify-content: space-between;
   align-content: center;
+  @media screen and (min-width: 1280px) {
+    width: 60%;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
-
 .navigation {
   margin: 0;
 }
@@ -44,11 +59,15 @@
   color: var(--color-general);
   font-weight: bold;
   text-align: end;
+  @media screen and (min-width: 1280px) {
+     font-size: 1.8rem;
+    }
 }
 .main-nav-each:hover,
 .main-nav-each:focus {
   font-size: 1.9rem;
-  border-bottom: 0.2rem solid var(--color-general);
+  color: var(--color-bcg-header);
+  border-bottom: 0.2rem solid var(--color-bcg-header);
 }
 .nav__rezer {
   margin: 0;
@@ -68,7 +87,8 @@
 .contact:hover,
 .contact:focus {
   font-size: 1.7rem;
-  border-bottom: 0.2rem solid var(--color-general);
+  color: var(--color-bcg-header);
+  border-bottom: 0.2rem solid var(--color-bcg-header);
 }
 
 .spelling-by-letter-name {
@@ -80,4 +100,16 @@
 .spelling-by-letter {
   background-color: var(--color-bcg-header);
   min-height: 7rem;
+}
+
+.ml12 {
+  font-weight: 200;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+.ml12 .letter {
+  display: inline-block;
+  line-height: 1em;
 }

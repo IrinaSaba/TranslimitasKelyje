@@ -5,6 +5,10 @@ footer {
 .container-footer {
   color: var(--color-text-white);
   letter-spacing: 0.05rem;
+  @media screen and (min-width: 1280px) {
+      display:flex;
+    
+  }
 }
 .footer__item-contact {
   font-size: 1.7rem;
