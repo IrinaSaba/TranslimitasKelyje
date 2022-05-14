@@ -102,14 +102,17 @@
   color: var(--color-text-white);
   text-align: center;
 }
-.ml12 {
-  font-weight: 200;
-  font-size: 2rem;
-  text-transform: uppercase;
-  letter-spacing: 0.5em;
-}
 
-.ml12 .letter {
-  display: inline-block;
-  line-height: 1em;
+.ml12 {
+  @media screen and (min-width: 1280px) {
+    font-weight: 200;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    .letter {
+      display: inline-block;
+      line-height: 1em;
+    }
+   }
 }
+ 
