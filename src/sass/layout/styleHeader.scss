@@ -1,5 +1,12 @@
 .header {
-  padding: 20px;
+    padding: 20px;
+    background-color: #fff;
+  @media screen and (min-width: 1280px) {
+    padding: 0;
+    position: fixed;
+    top:0;
+  }
+
 }
 .logotip {
   width: 50%;
@@ -21,7 +28,7 @@
 }
 .navigation-flex {
   display: flex;
-  margin-bottom: 10px;
+  // margin-bottom: 10px;
   align-items: center;
   justify-content: space-between;
   align-content: center;
@@ -63,8 +70,8 @@
 .main-nav-each:hover,
 .main-nav-each:focus {
   font-size: 1.9rem;
-  color: var(--color-bcg-header);
-  border-bottom: 0.2rem solid var(--color-bcg-header);
+  color: #128FC8;
+  border-bottom: 0.2rem solid #128FC8;
 }
 .nav__rezer {
   margin: 0;
@@ -83,8 +90,8 @@
 .contact:hover,
 .contact:focus {
   font-size: 1.7rem;
-  color: var(--color-bcg-header);
-  border-bottom: 0.2rem solid var(--color-bcg-header);
+  color: #128FC8;
+  border-bottom: 0.2rem solid #128FC8;
 }
 .spelling-by-letter {
   background-color: #128FC8;
@@ -92,6 +99,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  @media screen and (min-width: 1280px) {
+    margin-top: 150px;
+  }
 }
 .spelling-by-letter-name {
   // font-family: "Raleway", sans-serif;
@@ -123,4 +133,10 @@
     }
    }
 }
- 
+.spelling-by-letter-kainos {
+  background-color: #128FC8;
+  min-height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
