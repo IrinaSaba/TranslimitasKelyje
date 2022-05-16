@@ -5,11 +5,8 @@
   width: 50%;
   margin: 0;
   img {
-    width: 100%;
+    width: 80%;
   }
-}
-.logotip:hover {
- 
 }
 .nav {
   display: flex;
@@ -80,7 +77,6 @@
   color: var(--color-general);
 }
 .contact {
-  font-family: "Raleway", sans-serif;
   font-size: 1.4rem;
   color: var(--color-general);
 }
@@ -91,14 +87,14 @@
   border-bottom: 0.2rem solid var(--color-bcg-header);
 }
 .spelling-by-letter {
-  background-color: var(--color-bcg-header);
+  background-color: #128FC8;
   min-height: 7rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .spelling-by-letter-name {
-  font-family: "Raleway", sans-serif;
+  // font-family: "Raleway", sans-serif;
   color: var(--color-text-white);
   text-align: center;
 }

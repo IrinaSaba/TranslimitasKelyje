@@ -1,5 +1,5 @@
 footer {
-  background-color: var(--color-bcg-sbl);
+  background-color: #00468B;
   padding: 2rem;
 }
 .container-footer {
@@ -7,7 +7,7 @@ footer {
   letter-spacing: 0.05rem;
   @media screen and (min-width: 1280px) {
       display:flex;
-    
+      padding: 0;
   }
 }
 .footer__item-contact {
@@ -18,7 +18,6 @@ footer {
 }
 .footer__item-phone-number,
 .footer__item-email {
-  font-family: "Raleway", sans-serif;
   color: var(--color-text-white);
   text-decoration: none;
 }

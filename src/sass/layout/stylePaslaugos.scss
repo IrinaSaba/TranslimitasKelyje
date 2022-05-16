@@ -1,0 +1,28 @@
+.paslaugos {
+  background-color: #FFD662FF;
+}
+
+.section__paslaugos-name {
+  color: var(--color-general);
+  text-align: center;
+  padding: 2rem;
+}
+.section__paslaugos {
+  padding: 2rem;
+  padding-top: 0;
+}
+.section__paslaugos-items {
+  display: flex;
+  flex-direction: column;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+.section__paslaugos-item {
+ margin: 0;
+ font-weight: bolder;
+ @media screen and (min-width: 768px) {
+  text-align: center;
+  padding: 5px;
+}
+}
