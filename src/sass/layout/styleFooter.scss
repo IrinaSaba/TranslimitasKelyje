@@ -12,6 +12,9 @@ footer {
 }
 .footer__item-contact {
   font-size: 1.7rem;
+  @media screen and (min-width: 1280px) {
+    margin-left: 30px;
+  }
 }
 .footer__item-contact-name {
   font-weight: bolder;
