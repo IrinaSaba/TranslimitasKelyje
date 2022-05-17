@@ -1,9 +1,10 @@
 .paslaugos {
-  background-color: #FFD662FF;
+  
+  background-color: #128FC8;
 }
 
 .section__paslaugos-name {
-  color: var(--color-general);
+  color: var(--color-text-white);
   text-align: center;
   padding: 2rem;
 }
@@ -19,8 +20,9 @@
   }
 }
 .section__paslaugos-item {
+  color: var(--color-text-white);
  margin: 0;
- font-weight: bolder;
+//  font-weight: bolder;
  @media screen and (min-width: 768px) {
   text-align: center;
   padding: 5px;
