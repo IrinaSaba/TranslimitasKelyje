@@ -18,6 +18,16 @@
     flex-direction: row;
   }
 }
+.section__paslaugos-items-last {
+  // display: flex;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
 .section__paslaugos-item {
   color: var(--color-text-white);
  margin: 0;
